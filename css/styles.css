@@ -71,3 +71,19 @@ ul {
 .link-menu ul {
   padding-top: 8%;
 }
+
+.middle-card {
+  background-color: #f3f3f3;
+  padding: 5%;
+}
+
+#field img {
+  margin: 0;
+}
+
+@media screen and (min-width: 1001px) {
+  .middle-card {
+    background-color: transparent;
+  }
+
+}
