@@ -22,6 +22,15 @@
 
 .card-text {
   margin: 0;
+  line-height: 2em;
+}
+
+.card-block h6, .card-block h3{
+  line-height: 1.5em;
+}
+
+.card-block a {
+  line-height: 2em;
 }
 
 .blockquote {
@@ -42,4 +51,23 @@
   border: none;
   text-align: center;
   color: #515151;
+}
+
+#bottom {
+  margin-top: 10%
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: #515151;
+}
+
+.link-menu {
+  margin-top: 8%;
+  border-top: solid 1px grey;
+}
+
+.link-menu ul {
+  padding-top: 8%;
 }
