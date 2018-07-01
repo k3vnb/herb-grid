@@ -2,7 +2,46 @@
   width: 100%;
   height: 100%;
 }
-
+.hero-img {
+  background-image: url(../img/centerpiece.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: 100%;
+  position: relative;
+}
+.jumbotron-text {
+  position: absolute;
+  border: 5px solid #35482f;
+  top: 10%;
+  left: 6%;
+  padding: 3%;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #000000d4;
+}
+.jumbotron-text hr {
+  border: 1px solid white;
+}
+@media screen and (max-width: 550px) {
+  .jumbotron-text {
+    width: 100%;
+    left: 0%;
+    top: 5%;
+    margin-bottom: 0%;
+    position: sticky;
+    border-radius: 0%;
+    border: none;
+  }
+}
 .jumbotron-fluid, .container-fluid {
   padding: 0;
 }
@@ -125,7 +164,7 @@ ul {
   position: fixed;
   width: 100%;
   z-index: 20;
-  padding: 0% 5%;
+  padding: 1% 5%;
 }
 .navbar ul {
   width: 100%;
