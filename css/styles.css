@@ -121,6 +121,17 @@ ul {
 .check-out ul {
   padding: 0;
 }
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  padding: 0% 5%;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 @media screen and (min-width: 1001px) {
